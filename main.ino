@@ -1,4 +1,3 @@
-
 #include <MFRC522.h>
 #include <MFRC522Extended.h>
 #include <ESP8266WiFi.h>
@@ -58,8 +57,6 @@ void setup() {
   for (byte i = 0; i < 6; i++) {
     key.keyByte[i] = 0xFF;
   }
- 
- 
 }
 
 void loop() {
